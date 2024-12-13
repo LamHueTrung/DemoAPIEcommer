@@ -1,0 +1,23 @@
+2024-12-13 18:13:17 [INFO]: MongoDB Connected: localhost
+2024-12-13 18:13:20 [INFO]: Fetched 0 users (page: 1, limit: 10)
+2024-12-13 18:13:28 [INFO]: Người dùng với email test@example.com đã được tạo thành công.
+2024-12-13 18:13:56 [INFO]: Thông tin người dùng với ID 675c16d86232ba2334ee9bac đã được trả về.
+2024-12-13 18:14:07 [INFO]: Người dùng với ID 675c16d86232ba2334ee9bac đã được xóa thành công.
+2024-12-13 18:14:33 [INFO]: Sản phẩm mới đã được tạo: Sample Product
+2024-12-13 18:14:41 [INFO]: Lấy danh sách 1 sản phẩm (trang 1) thành công.
+2024-12-13 18:14:53 [INFO]: Lấy thông tin sản phẩm với ID 675c17196232ba2334ee9bb1 thành công.
+2024-12-13 18:15:15 [ERROR]: Lỗi khi tạo đơn hàng: Cannot read properties of undefined (reading 'id')
+2024-12-13 18:15:26 [INFO]: Lấy danh sách 0 đơn hàng thành công.
+2024-12-13 18:15:42 [INFO]: Lấy danh sách 1 sản phẩm (trang 1) thành công.
+2024-12-13 18:15:51 [ERROR]: Lỗi khi tạo đơn hàng: Cannot read properties of undefined (reading 'id')
+2024-12-13 18:16:58 [INFO]: Lấy danh sách 0 đơn hàng thành công.
+2024-12-13 18:17:18 [ERROR]: Lỗi khi tạo thanh toán: messages.payment.validation.invalidMethod is not a function
+2024-12-13 18:18:09 [ERROR]: Lỗi khi tạo thanh toán: messages.payment.validation.invalidMethod is not a function
+2024-12-13 18:18:18 [INFO]: MongoDB Connected: localhost
+2024-12-13 18:18:22 [ERROR]: Lỗi khi tạo thanh toán: Payment validation failed: order: Cast to ObjectId failed for value "orderId123" (type string) at path "order" because of "BSONError"
+2024-12-13 18:18:35 [INFO]: Lấy danh sách 0 đơn hàng thành công.
+2024-12-13 18:19:08 [INFO]: Lấy danh sách 0 thanh toán thành công.
+2024-12-13 18:20:40 [INFO]: Lấy danh sách 1 sản phẩm (trang 1) thành công.
+2024-12-13 18:21:15 [WARN]: Tạo sản phẩm thất bại: ["Product name không được để trống. không được để trống.","Product description không được để trống. không được để trống.","Product price phải là một số dương. phải là một số dương.","Product category không được để trống. không được để trống."]
+2024-12-13 18:22:04 [WARN]: Tạo sản phẩm thất bại: ["Product name không được để trống. không được để trống.","Product description không được để trống. không được để trống.","Product price phải là một số dương. phải là một số dương.","Product category không được để trống. không được để trống."]
+2024-12-13 18:22:53 [ERROR]: Lỗi khi tạo đơn hàng: Cannot read properties of undefined (reading 'id')
