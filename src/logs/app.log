@@ -21,3 +21,14 @@
 2024-12-13 18:21:15 [WARN]: Tạo sản phẩm thất bại: ["Product name không được để trống. không được để trống.","Product description không được để trống. không được để trống.","Product price phải là một số dương. phải là một số dương.","Product category không được để trống. không được để trống."]
 2024-12-13 18:22:04 [WARN]: Tạo sản phẩm thất bại: ["Product name không được để trống. không được để trống.","Product description không được để trống. không được để trống.","Product price phải là một số dương. phải là một số dương.","Product category không được để trống. không được để trống."]
 2024-12-13 18:22:53 [ERROR]: Lỗi khi tạo đơn hàng: Cannot read properties of undefined (reading 'id')
+2024-12-14 13:03:16 [INFO]: MongoDB Connected: localhost
+2024-12-14 13:06:14 [INFO]: MongoDB Connected: localhost
+2024-12-14 13:08:14 [INFO]: Người dùng với email test@example.com đã được tạo thành công.
+2024-12-14 13:10:27 [ERROR]: Lỗi khi tạo đơn hàng: Cannot read properties of undefined (reading 'id')
+2024-12-14 13:12:00 [INFO]: MongoDB Connected: localhost
+2024-12-14 13:20:56 [INFO]: MongoDB Connected: localhost
+2024-12-14 13:20:59 [INFO]: MongoDB Connected: localhost
+2024-12-14 13:21:02 [INFO]: Đơn hàng mới được tạo cho người dùng: 675d20ce92d87cd2e82ada4b
+2024-12-14 13:24:45 [INFO]: Thanh toán mới đã được tạo thành công cho đơn hàng: 675d23ce1a3dd0df428a6c5b
+2024-12-14 13:24:46 [INFO]: Thanh toán mới đã được tạo thành công cho đơn hàng: 675d23ce1a3dd0df428a6c5b
+2024-12-14 13:27:24 [INFO]: Đơn hàng mới được tạo cho người dùng: 675d20ce92d87cd2e82ada4b

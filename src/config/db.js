@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const logger = require('./logger'); 
 dotenv.config();
+const logger = require('./logger'); 
 
 const connectDB = async () => {
 

@@ -6,9 +6,9 @@ const UpdateOrderController = require('../controllers/commands/Order/update');
 const DeleteOrderController = require('../controllers/commands/Order/delete');
 const GetAllOrdersController = require('../controllers/queries/Order/getAll');
 const GetOrderByIdController = require('../controllers/queries/Order/getById');
-
+const authMiddleware = require('../middlewares/authMiddleware');
 // Commands
-router.post('/', CreateOrderController.handle); // Tạo đơn hàng
+router.post('/', authMiddleware, CreateOrderController.handle); // Tạo đơn hàng
 router.put('/:id', UpdateOrderController.handle); // Cập nhật đơn hàng
 router.delete('/:id', DeleteOrderController.handle); // Xóa đơn hàng
 
